@@ -1,0 +1,194 @@
+.home-cont{
+    width: 100vw;
+    height: 85vh;;
+    position: relative;
+    background-color: rgb(39, 37, 37);
+}
+.home-cont img{
+    width: 100%;
+    height: 100%;
+}
+.write{
+ 
+    position: absolute;
+    
+    top:40%;
+    left:5%;
+    right: 5%;
+    color: beige;
+}
+.write button{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkorange;
+    color: white;
+}
+.about-cont {
+    width: 100vw;
+    height: 85vh;
+}
+
+.about-cont img{
+    width: 100%;
+   height: 30%;;
+}
+.about-cont .below-img{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.about-cont .sub-about{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: wheat;
+    height: 22%;
+    border-radius: 5px;
+}
+.about-cont .sub-about h3{
+  padding-top: 20px;
+  padding-left: 15px;
+}
+.about-cont .sub-about button{
+   margin-left: 15px;
+   padding: 7px;
+   border: none;
+   border-radius: 5px;
+   background-color: black;
+   color: white;
+  }
+  .vans-cont{
+
+    width: 100vw;
+   height: 85vh;
+
+    
+  }
+  .vans-cont h3{
+    margin-left: 5%;
+  }
+  .vans-cont .filters{
+    max-width: 100%;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+  
+
+  
+    
+    
+  }
+  .vans-cont .filters .vv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 34px;
+    margin-top: 40px;
+  }
+  .vans-cont .filters button{
+   
+    margin-left: 5%;
+    padding: 5px;
+    border: none;
+    background-color: blanchedalmond;
+
+  }
+  .vans-cont .filters span{
+    margin-left: 10%;
+  }
+  .van-info img{
+
+    width: 100%;
+    height:100px;
+    border-radius: 5px;;
+  }
+   .van-info .van-type{
+    display: flex;
+    
+    font-size: 13px;
+   }
+   .vans-cont .filters .van-info  button{
+    margin-left: 0px;
+    border-radius: 5px;
+    width: 70px;
+    background-color: darkred;
+    color: white;
+   }
+   .vans-cont .filters .van-info a{
+    text-decoration: none;
+    color: black;
+   }
+   .vans-cont .filters .van-info .simple{
+    background-color: darkorange;
+   }
+   .vans-cont .filters .van-info .rugged{
+    background-color: darkgreen;
+   }
+   .vans-cont .filters .van-info .luxury{
+    background-color: black;
+   }
+   .van-detail-cont{
+    width: 100vw;
+    height: 85vh;
+   }
+   .van-detail-cont .sub-van-detail{
+    margin-left: 5%;
+    margin-right: 5%;
+   }
+   .van-detail-cont .sub-van-detail a{
+    color: black;
+   }
+   .van-detail-cont .sub-van-detail img{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+   }
+   .van-detail-cont .sub-van-detail button{
+     border: none;
+     color: white;
+     padding: 5px;
+     border-radius: 5px;
+   }
+   .van-detail-cont .sub-van-detail .simple{
+    background-color: darkorange;
+   }
+   .van-detail-cont .sub-van-detail .rugged{
+    background-color: darkgreen;
+   }
+   .van-detail-cont .sub-van-detail .luxury{
+    background-color: black;
+   }
+   .host-vans-cont{
+    width: 100vw;
+    height: 85vh;;
+  
+   
+    
+   }
+   .host-vans-cont h2 {
+    margin-left: 5%;
+    margin-right: 5%;
+   
+     }
+     .host-vans-cont .listed-vans-cont {
+    
+     }
+   .host-vans-cont .listed-vans-cont .single-list-van {
+    display: flex;
+    margin-top: 10px;
+  
+    padding: 30px;
+    justify-content: start;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+    max-height: 80px;;
+    
+
+   }
+    .host-vans-cont .listed-vans-cont .single-list-van img{
+     width: 30%;
+     margin-right: 10px;
+     height: 100%;
+    }

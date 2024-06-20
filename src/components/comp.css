@@ -1,0 +1,42 @@
+.main-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: beige;
+    padding: 20px;
+}
+.main-cont a{
+    text-decoration: none;
+    color: black;
+}
+.main-cont .sub-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-cont .sub-cont span{
+  
+   margin-left: 10px;
+   font-size: 18px;
+
+}
+.footer{
+  
+    background-color: #161616;
+    color: #aaaaaa;
+    height: 74px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 500;
+}
+
+.host-ly-cont a{
+
+   
+ color: black;
+ text-decoration: none;
+}
